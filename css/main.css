@@ -1,0 +1,75 @@
+
+.phone-frame {
+  width: 360px;
+  height: 720px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#status-bar {
+  font-size: 0.75rem;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+#clock-container {
+  margin-bottom: 1rem;
+  text-align: left;
+  padding-left: 4px;
+}
+
+#time {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+#weather-info {
+  text-align: right;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.weather-icon {
+  height: 32px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 2px;
+}
+
+
+.search-bar {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem 1rem;
+}
+
+.search-logo {
+  height: 24px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  color: #212529;
+  flex-grow: 1;
+}
+
+
+.icon-label {
+  max-width: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.icon-image {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+

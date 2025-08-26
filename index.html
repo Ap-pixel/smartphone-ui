@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/main.css">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icofont@1.0.1/icofont.min.css">
+
+</head>
+
+<body>
+  <div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="phone-frame bg-dark rounded-4 p-4">
+
+
+        <div class="d-flex justify-content-between align-items-center text-white mb-2" id="status-bar">
+          
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-wifi fs-6"></i>
+            <i class="bi bi-reception-4 fs-6"></i>
+            <i class="bi bi-battery-full fs-6"></i>
+          </div>
+          
+          <div id="status-time" class="fw-bold small">12:56</div>
+        </div>
+
+
+      
+        <div class="d-flex justify-content-between align-items-start text-white mb-3">
+          
+          <div id="clock-container">
+            <div id="time" class="fw-bold"></div>
+            <div id="date" class="fw-light small"></div>
+          </div>
+
+          
+          <div id="weather-info" class="text-end">
+            <img id="weather-icon" src="" alt="Wetter" class="weather-icon">
+            <div id="weather-temp" class="small"></div>
+            <div id="weather-desc" class="small"></div>
+          </div>
+
+        </div>
+      
+
+      <div class="row row-cols-5 g-3 text-center text-white">
+
+        
+        <div class="col">
+          <i class="bi bi-camera-fill fs-2"></i>
+          <p class="icon-label" title="Kamera">Kamera</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-chat-dots-fill fs-2"></i>
+          <p class="icon-label" title="Chat">Chat</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-gear-fill fs-2"></i>
+          <p class="icon-label" title="Einstellungen">Einstellungen</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-telephone-fill fs-2"></i>
+          <p class="icon-label" title="Telephone">Telephone</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-browser-chrome fs-2"></i>
+          <p class="icon-label" title="Chrom">Chrom</p>
+        </div>
+
+        <div class="search-bar d-flex align-items-center justify-content-between bg-white rounded-pill mb-3">
+            
+            <img src="image/google-logo.png" alt="Google" class="search-logo">
+
+            
+            <input type="text" class="form-control search-input" placeholder="Suchen...">
+
+            
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-mic-fill text-secondary fs-5"></i>
+              <i class="bi bi-camera-fill text-secondary fs-5"></i>
+            </div>
+        </div>
+
+
+        <div class="col">
+          <i class="bi bi-calendar-date fs-2"></i>
+          <p class="icon-label" title="Kalender">Kalender</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-clock fs-2"></i>
+          <p class="icon-label" title="Uhr">Uhr</p>
+        </div>
+        
+        <div class="col">
+          <i class="bi bi-google-play fs-2"></i>
+          <p class="icon-label" title="Play_Store">Play Store</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-images fs-2"></i>
+          <p class="icon-label" title="Images">Images</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-chat-fill fs-2"></i>
+          <p class="icon-label" title="Chat">Chat</p>
+        </div>
+        <div class="col">
+          <img src="image/huawei-logo.png" alt="Huawei" class="icon-image">
+          <p class="icon-label" title="Huawei">Huawei</p>
+
+        </div>
+        <div class="col">
+          <i class="bi bi-person-lines-fill fs-2"></i>
+          <p class="icon-label" title="Person">Person</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-apple-music fs-2"></i>
+          <p class="icon-label" title="Music">Music</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-google fs-2"></i>
+          <p class="icon-label" title="Google">Google</p>
+        </div>
+        <div class="col">
+          <i class="bi bi-youtube fs-2"></i>
+          <p class="icon-label" title="YouTube">YouTube</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <script src="js/uhr.js"></script>
+      <script src="js/wetter.js"></script>
+
+</body>
+</html>
