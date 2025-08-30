@@ -7,11 +7,11 @@
     
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icofont@1.0.1/icofont.min.css">
       <link rel="stylesheet" href="css/main.css">
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icofont@1.0.1/icofont.min.css">
-
+      <script src="js/uhr.js" defer></script>
+      <script src="js/wetter.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
             <i class="bi bi-battery-full fs-6"></i>
           </div>
           
-          <div id="status-time" class="fw-bold small">12:56</div>
+          <div id="status-time" class="clock-time fw-bold small">12:56</div>
         </div>
 
 
@@ -35,7 +35,7 @@
         <div class="d-flex justify-content-between align-items-start text-white mb-3">
           
           <div id="clock-container">
-            <div id="time" class="fw-bold"></div>
+            <div id="time" class="clock-time fw-bold"></div>
             <div id="date" class="fw-light small"></div>
           </div>
 
@@ -132,10 +132,7 @@
         </div>
       </div>
     </div>
-  </div>
-
-      <script src="js/uhr.js"></script>
-      <script src="js/wetter.js"></script>
+  </div>   
 
 </body>
 </html>
